@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"], select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+#search {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.tamamlandı {
+    background-color: green;
+    color: white;
+}
+
+.tamamlanmadı {
+    background-color: red;
+    color: white;
+}
+
+.bilgi {
+    background-color: yellow;
+    color: black;
+}
+
+/* Drop down color style */
+select.durum.tamamlandı {
+    background-color: green;
+    color: white;
+}
+
+select.durum.tamamlanmadı {
+    background-color: red;
+    color: white;
+}
+
+select.durum.bilgi {
+    background-color: yellow;
+    color: black;
+}
+
